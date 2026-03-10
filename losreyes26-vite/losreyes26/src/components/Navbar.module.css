@@ -1,0 +1,101 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 48px;
+  background: rgba(10, 10, 8, 0.4);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 140, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+  background: rgba(10, 10, 8, 0.92);
+  border-bottom-color: rgba(255, 140, 0, 0.3);
+  box-shadow: 0 4px 30px rgba(255, 140, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoImage {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 8px rgba(255, 140, 0, 0.6));
+}
+
+.logoText {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #ff8c00;
+  letter-spacing: 0.15em;
+  text-shadow: 0 0 15px rgba(255, 140, 0, 0.6);
+}
+
+.logoYear {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #f0e8d0;
+  opacity: 0.7;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  align-items: center;
+}
+
+.navLink {
+  background: none;
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #a09070;
+  letter-spacing: 0.2em;
+  position: relative;
+  padding: 4px 0;
+  transition: color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.navLink:hover,
+.navLink.active {
+  color: #ff8c00;
+  text-shadow: 0 0 12px rgba(255, 140, 0, 0.6);
+}
+
+.navUnderline {
+  display: block;
+  height: 1px;
+  width: 0;
+  background: #ff8c00;
+  transition: width 0.3s ease;
+  box-shadow: 0 0 6px rgba(255, 140, 0, 0.8);
+}
+
+.navLink:hover .navUnderline,
+.navLink.active .navUnderline {
+  width: 100%;
+}

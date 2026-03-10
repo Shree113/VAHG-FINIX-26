@@ -1,0 +1,402 @@
+.footer {
+  position: relative;
+  border-top: 1px solid rgba(255,140,0,0.15);
+  margin-top: 80px;
+  padding: 60px 0 0;
+  overflow: hidden;
+}
+
+.footerGlow {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 200px;
+  background: radial-gradient(ellipse at top, rgba(255,140,0,0.06), transparent 70%);
+  pointer-events: none;
+}
+
+.footerContent {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+/* Coordinators */
+.coordinatorsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.topCoordinators {
+  display: flex;
+  gap: 0;
+  background: linear-gradient(135deg, #0e0e0c, #111109);
+  border: 1px solid rgba(255,140,0,0.18);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.coordGroup {
+  flex: 1;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  text-align: center;
+}
+
+.coordDivider {
+  width: 1px;
+  background: rgba(255,140,0,0.1);
+  align-self: stretch;
+}
+
+.coordTitle {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #ff8c00;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+.coordCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.personCard {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  background: rgba(255,140,0,0.04);
+  border: 1px solid rgba(255,140,0,0.12);
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.personCard:hover {
+  border-color: rgba(255,140,0,0.3);
+  background: rgba(255,140,0,0.07);
+}
+
+.personCard.highlight {
+  border-color: rgba(255,140,0,0.2);
+}
+
+.avatar {
+  opacity: 0.7;
+  flex-shrink: 0;
+}
+
+.personInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.personName {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #f0e8d0;
+  letter-spacing: 0.1em;
+}
+
+.personRole {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 0.65rem;
+  color: #554f3a;
+  letter-spacing: 0.05em;
+}
+
+.personPhone {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.75rem;
+  color: #ff8c00;
+  letter-spacing: 0.05em;
+  margin-top: 2px;
+}
+
+/* Student coordinators */
+.studentCoords {
+  background: linear-gradient(135deg, #0e0e0c, #111109);
+  border: 1px solid rgba(255,140,0,0.18);
+  border-radius: 10px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.studentGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+/* Registration */
+.registrationSection {
+  background: linear-gradient(135deg, #0e0e0c, #111109);
+  border: 1px solid rgba(255,140,0,0.18);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.regTitle {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #ff8c00;
+  letter-spacing: 0.25em;
+  padding: 18px 28px;
+  border-bottom: 1px solid rgba(255,140,0,0.1);
+  background: rgba(255,140,0,0.03);
+}
+
+.regBox {
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.regNote {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.regNoteLabel {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: #ff8c00;
+  letter-spacing: 0.25em;
+}
+
+.regDetails {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.regItem {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 16px;
+  background: rgba(255,140,0,0.03);
+  border: 1px solid rgba(255,140,0,0.1);
+  border-radius: 6px;
+}
+
+.regLabel {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 0.65rem;
+  color: #554f3a;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.regValue {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.8rem;
+  color: #c8b090;
+}
+
+.regInstructions {
+  margin-top: 10px;
+  padding: 20px;
+  background: rgba(255,140,0,0.02);
+  border: 1px solid rgba(255,140,0,0.08);
+  border-radius: 8px;
+}
+
+.instructionTitle {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #ff8c00;
+  letter-spacing: 0.2em;
+  margin-bottom: 16px;
+  opacity: 0.9;
+}
+
+.instructionList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.instructionList li {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 0.82rem;
+  color: #c8b090;
+  line-height: 1.5;
+  position: relative;
+  padding-left: 24px;
+}
+
+.instructionList li::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  color: #ff8c00;
+  font-size: 0.7rem;
+  top: 4px;
+  opacity: 0.8;
+}
+
+.regAction {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.regButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: #ff8c00;
+  color: #0a0a08;
+  padding: 14px 32px;
+  border-radius: 6px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 20px rgba(255, 140, 0, 0.3);
+}
+
+.regButton:hover {
+  background: #ff9d26;
+  transform: translateY(-2px);
+  box-shadow: 0 0 30px rgba(255, 140, 0, 0.5);
+}
+
+.regButton span {
+  position: relative;
+  z-index: 1;
+}
+
+/* Note form */
+.noteForm {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.noteInput {
+  flex: 1;
+  background: rgba(255,140,0,0.04);
+  border: 1px solid rgba(255,140,0,0.2);
+  border-radius: 6px;
+  padding: 12px 16px;
+  color: #f0e8d0;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 0.82rem;
+  resize: none;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.noteInput::placeholder {
+  color: #3a3428;
+}
+
+.noteInput:focus {
+  border-color: rgba(255,140,0,0.4);
+  background: rgba(255,140,0,0.06);
+}
+
+.noteSubmit {
+  padding: 12px 24px;
+  background: rgba(255,140,0,0.1);
+  color: #ff8c00;
+  border: 1px solid rgba(255,140,0,0.3);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  height: fit-content;
+}
+
+.noteSubmit:hover {
+  background: rgba(255,140,0,0.15);
+  border-color: rgba(255,140,0,0.5);
+  box-shadow: 0 0 16px rgba(255,140,0,0.15);
+}
+
+/* Footer bottom */
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+  border-top: 1px solid rgba(255,140,0,0.1);
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.footerLogo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.footerLogoText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.footerEventName {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #ff8c00;
+  letter-spacing: 0.1em;
+}
+
+.footerOrgName {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 0.7rem;
+  color: #a09070;
+  letter-spacing: 0.08em;
+}
+
+.footerDeptName {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 0.65rem;
+  color: #554f3a;
+  letter-spacing: 0.05em;
+}
+
+.copyright {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.65rem;
+  color: #3a3428;
+  text-align: right;
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+}
