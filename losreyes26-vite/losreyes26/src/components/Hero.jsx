@@ -62,7 +62,7 @@ const Hero = () => {
           <div className={styles.titleCornerBL}></div>
           <div className={styles.titleCornerBR}></div>
           <h1 className={styles.mainTitle} ref={titleRef}>
-            LOS REYES <span className={styles.titleYear}>'26</span>
+            VAHG FINIX <span className={styles.titleYear}>'26</span>
           </h1>
         </div>
 
