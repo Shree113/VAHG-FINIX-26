@@ -17,14 +17,18 @@ export const eventsData = {
         ],
         coordinators: {
           staff: [{ name: 'PROF. V ASHOK KUMAR', role: 'AP / CSE', phone: '7708776431' }],
-          student: [{ name: 'ASHOK', role: 'Student Coordinator' }]
+          student: [
+            { name: 'V. VARSHINI', role: 'Student Coordinator', phone: '9043133477' },
+            { name: 'M. VARATHA', role: 'Student Coordinator', phone: '6369485613' }
+          ]
         }
       },
       {
         id: 'quiz',
         name: 'TECHNICAL QUIZ',
         max: 1,
-        googleFormLink: 'https://docs.google.com/forms/d/e/1FAIpQLScF9ItKaym5Yjh9wAPFxjRRj8aXOEY_bpMsejOIEz_e42TE1g/viewform',
+        poster: 'tech-quiz-poster.jpg',
+        googleFormLink: 'https://docs.google.com/forms/d/e/1FAIpQLScRSZNcvp4P-q0BoBitudyoe_DMzR9z7hmeG0_UNQgAhjlviQ/viewform?usp=dialog',
         description: 'The Technical Quiz is an engaging event designed to test participants’ knowledge in Computer Science and Engineering concepts. The competition consists of three progressive levels, starting with basic questions and advancing to intermediate and coding rounds.',
         details: 'Individual participation only. Topics: CS & Engineering concepts. Time Limit: 20s (General), 40s (Coding).',
         rules: [
@@ -35,7 +39,10 @@ export const eventsData = {
         ],
         coordinators: {
           staff: [{ name: 'PROF. V ASHOK KUMAR', role: 'AP / CSE', phone: '7708776431' }],
-          student: [{ name: 'ASHOK', role: 'Student Coordinator' }]
+          student: [
+            { name: 'R. SHANMUGAPRIYA', role: 'Student Coordinator', phone: '9940836202' },
+            { name: 'V. DHINESH', role: 'Student Coordinator', phone: '7604828893' }
+          ]
         }
       },
       {
@@ -93,7 +100,10 @@ export const eventsData = {
         ],
         coordinators: {
           staff: [{ name: 'PROF. V ASHOK KUMAR', role: 'AP / CSE', phone: '7708776431' }],
-          student: [{ name: 'ASHOK', role: 'Student Coordinator' }]
+          student: [
+            { name: 'SUSITH . J', role: 'Student Coordinator', phone: '9360034180' },
+            { name: 'M. SANDHIYA', role: 'Student Coordinator', phone: '8122643264' }
+          ]
         }
       },
       {
@@ -111,7 +121,10 @@ export const eventsData = {
         ],
         coordinators: {
           staff: [{ name: 'PROF. V ASHOK KUMAR', role: 'AP / CSE', phone: '7708776431' }],
-          student: [{ name: 'ASHOK', role: 'Student Coordinator' }]
+          student: [
+            { name: 'G. LOKESH', role: 'Student Coordinator', phone: '8438664070' },
+            { name: 'V. YUVA', role: 'Student Coordinator', phone: '9342953317' }
+          ]
         }
       }
     ]

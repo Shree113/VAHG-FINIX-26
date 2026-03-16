@@ -4,9 +4,11 @@ import { eventsData } from '../data/events';
 import styles from './Register.module.css';
 
 import codePoster from '../assets/code-poster.jpg';
+import techQuizPoster from '../assets/tech-quiz-poster.jpg';
 
 const posters = {
-  'code-poster.jpg': codePoster
+  'code-poster.jpg': codePoster,
+  'tech-quiz-poster.jpg': techQuizPoster
 };
 
 const CoordinatorCard = ({ name, role, phone }) => (

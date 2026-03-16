@@ -42,7 +42,7 @@ const Navbar = ({ activeSection, onNavigate }) => {
       </button>
 
       <ul className={`${styles.navLinks} ${menuOpen ? styles.showMenu : ''}`}>
-        {['home', 'events', 'footer'].map((item) => (
+        {['home', 'events'].map((item) => (
           <li key={item}>
             <button
               className={`${styles.navLink} ${activeSection === item ? styles.active : ''}`}
