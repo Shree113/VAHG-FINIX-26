@@ -3,11 +3,11 @@ import { useParams, Link } from 'react-router-dom';
 import { eventsData } from '../data/events';
 import styles from './Register.module.css';
 
-import codePoster from '../assets/code-poster.jpg';
+import codeDebugPoster from '../assets/code_debug.png';
 import techQuizPoster from '../assets/tech-quiz-poster.jpg';
 
 const posters = {
-  'code-poster.jpg': codePoster,
+  'code_debug.png': codeDebugPoster,
   'tech-quiz-poster.jpg': techQuizPoster
 };
 
