@@ -5,10 +5,12 @@ import styles from './Register.module.css';
 
 import codeDebugPoster from '../assets/code_debug.png';
 import techQuizPoster from '../assets/tech-quiz-poster.jpg';
+import vibeCodingPoster from '../assets/vibe-coding.png';
 
 const posters = {
   'code_debug.png': codeDebugPoster,
-  'tech-quiz-poster.jpg': techQuizPoster
+  'tech-quiz-poster.jpg': techQuizPoster,
+  'vibe-coding.png': vibeCodingPoster
 };
 
 const CoordinatorCard = ({ name, role, phone }) => (

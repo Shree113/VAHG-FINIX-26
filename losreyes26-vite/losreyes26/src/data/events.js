@@ -69,6 +69,7 @@ export const eventsData = {
         name: 'VIBE CODING',
         min: 1,
         max: 2,
+        poster: 'vibe-coding.png',
         googleFormLink: 'https://docs.google.com/forms/d/e/1FAIpQLScF9ItKaym5Yjh9wAPFxjRRj8aXOEY_bpMsejOIEz_e42TE1g/viewform',
         description: 'Vibe Coding is a rapid development challenge where participants use AI tools and programming technologies to transform ideas into working applications. Based on an assigned topic, participants must design, build, and present a functional solution within a limited time.',
         details: '1 hour development challenge. Develop an application based on the assigned topic using any programming tools or frameworks. Submission: Final project must be uploaded to GitHub. Participants are encouraged to bring their own laptops.',
