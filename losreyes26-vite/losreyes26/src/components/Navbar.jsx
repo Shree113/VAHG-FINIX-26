@@ -21,10 +21,10 @@ const Navbar = ({ activeSection, onNavigate }) => {
     <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''} ${menuOpen ? styles.menuOpen : ''}`}>
       <div className={styles.logo}>
         <div className={styles.logoIcon}>
-          <img src={logoImg} alt="VAHG FINIX" className={styles.logoImage} />
+          <img src={logoImg} alt="LOS REYES" className={styles.logoImage} />
         </div>
         <div className={styles.logoTextWrapper}>
-          <span className={styles.logoText}>VAHG FINIX</span>
+          <span className={styles.logoText}>LOS REYES</span>
           <span className={styles.logoYear}>'26</span>
         </div>
       </div>
