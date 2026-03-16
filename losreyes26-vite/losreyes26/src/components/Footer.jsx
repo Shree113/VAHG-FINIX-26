@@ -151,13 +151,13 @@ const Footer = () => {
               <circle cx="20" cy="22" r="3" fill="#ff8c00"/>
             </svg>
             <div className={styles.footerLogoText}>
-              <span className={styles.footerEventName}>LOS REYES '26</span>
+              <span className={styles.footerEventName}>VAHG FINIX '26</span>
               <span className={styles.footerOrgName}>JCT COLLEGE OF ENGINEERING AND TECHNOLOGY</span>
               <span className={styles.footerDeptName}>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</span>
             </div>
           </div>
           <div className={styles.copyright}>
-            © 2026 LOS REYES '26 — DEPT. OF COMPUTER SCIENCE AND ENGINEERING
+            © 2026 VAHG FINIX '26 — DEPT. OF COMPUTER SCIENCE AND ENGINEERING
             <br />
             JCT COLLEGE OF ENGINEERING AND TECHNOLOGY
           </div>
