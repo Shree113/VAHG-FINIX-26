@@ -49,7 +49,7 @@ export const eventsData = {
         id: 'debug',
         name: 'CODE DEBUGGING',
         max: 1,
-        poster: 'code-poster.jpg',
+        poster: 'code_debug.png',
         googleFormLink: 'https://docs.google.com/forms/d/e/1FAIpQLScF9ItKaym5Yjh9wAPFxjRRj8aXOEY_bpMsejOIEz_e42TE1g/viewform',
         description: 'Race against time to identify and fix bugs in complex code snippets. Test your debugging skills across multiple programming languages and problem domains.',
         details: 'Participants receive buggy code and must identify and fix all errors within the time limit. Points awarded based on correctness and time taken.',
