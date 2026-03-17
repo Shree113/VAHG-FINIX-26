@@ -18,8 +18,8 @@ export const eventsData = {
         coordinators: {
           staff: [{ name: 'PROF. S . JASEENA', role: 'AP / CSE', phone: '7736752071' }],
           student: [
-            { name: 'V. VARSHINI', role: 'Student Coordinator', phone: '9043133477' },
-            { name: 'M. VARATHA', role: 'Student Coordinator', phone: '6369485613' }
+            { name: 'S. ABINESH', role: 'Student Coordinator', phone: '9787732041' },
+            { name: 'GOKILA', role: 'Student Coordinator', phone: '7708057684' }
           ]
         }
       },
@@ -40,8 +40,8 @@ export const eventsData = {
         coordinators: {
           staff: [{ name: 'DR. T . RAJENDRAN', role: 'ASP / CSE', phone: '9952574861' }],
           student: [
-            { name: 'R. SHANMUGAPRIYA', role: 'Student Coordinator', phone: '9940836202' },
-            { name: 'V. DHINESH', role: 'Student Coordinator', phone: '7604828893' }
+            { name: 'R. SHANMUGAPRIYA', role: 'Student Coordinator', phone: '9443595202' },
+            { name: 'B. YUGESH', role: 'Student Coordinator', phone: '8778635442' }
           ]
         }
       },
@@ -55,7 +55,7 @@ export const eventsData = {
         details: 'Participants receive buggy code and must identify and fix all errors within the time limit. Points awarded based on correctness and time taken.',
         rules: [
           'Individual participation',
-          'Languages: C, C++, Java, Python',
+          'Languages: C, Java, Python',
           'Time limit: 60 minutes',
           'Partial marks for partial solutions'
         ],
@@ -108,8 +108,8 @@ export const eventsData = {
         coordinators: {
           staff: [{ name: 'PROF. K . ELANGOVAN', role: 'AP / CSE', phone: '7010848123' }],
           student: [
-            { name: 'SUSITH . J', role: 'Student Coordinator', phone: '9360034180' },
-            { name: 'M. SANDHIYA', role: 'Student Coordinator', phone: '8122643264' }
+            { name: 'MADHAN', role: 'Student Coordinator', phone: '7010744676' },
+            { name: 'SUBASH', role: 'Student Coordinator', phone: '9361864644' }
           ]
         }
       },
@@ -129,8 +129,8 @@ export const eventsData = {
         coordinators: {
           staff: [{ name: 'PROF. S . SATHYA', role: 'AP / CSE', phone: '6380039615' }],
           student: [
-            { name: 'G. LOKESH', role: 'Student Coordinator', phone: '8438664070' },
-            { name: 'V. YUVA', role: 'Student Coordinator', phone: '9342953317' }
+            { name: 'KAJENDRAN', role: 'Student Coordinator', phone: '9639316479' },
+            { name: 'DAKSHA', role: 'Student Coordinator', phone: '8940185005' }
           ]
         }
       }
