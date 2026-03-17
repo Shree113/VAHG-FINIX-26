@@ -60,7 +60,7 @@ export const eventsData = {
           'Partial marks for partial solutions'
         ],
         coordinators: {
-          staff: [{ name: 'PROF. V ASHOK KUMAR', role: 'AP / CSE', phone: '7708776431' }],
+          staff: [{ name: 'PROF. P . PRABU', role: 'AP / CSE', phone: '9500592923' }],
           student: [
             { name: 'FAHAD', role: 'Student Coordinator', phone: '7306841618' },
             { name: 'SAMEER', role: 'Student Coordinator', phone: '9500592923' }
