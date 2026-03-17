@@ -7,7 +7,7 @@ export const eventsData = {
         min: 1,
         max: 4,
         poster: 'ppt.jpeg',
-        googleFormLink: 'https://docs.google.com/forms/d/e/1FAIpQLScF9ItKaym5Yjh9wAPFxjRRj8aXOEY_bpMsejOIEz_e42TE1g/viewform',
+        googleFormLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdLu43zB6ebyeJCNyThjSqcH3MlKL6CiyVR4wP3yMxJUWHdFg/viewform?usp=header',
         description: 'This presentation transforms ideas into visual stories, making complex concepts simple and engaging. Each slide blends creativity with clarity, using smart design and real-world examples. The focus is on impactful communication, audience interaction, and meaningful learning.',
         details: 'Presentation Duration: 5 – 7 minutes. Slides: 8 – 12 slides required. File Name Format: TeamName_TopicName_PPT.',
         rules: [
