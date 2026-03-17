@@ -61,7 +61,10 @@ export const eventsData = {
         ],
         coordinators: {
           staff: [{ name: 'PROF. V ASHOK KUMAR', role: 'AP / CSE', phone: '7708776431' }],
-          student: [{ name: 'ASHOK', role: 'Student Coordinator' }]
+          student: [
+            { name: 'FAHAD', role: 'Student Coordinator', phone: '7306841618' },
+            { name: 'SAMEER', role: 'Student Coordinator', phone: '9500592923' }
+          ]
         }
       },
       {
