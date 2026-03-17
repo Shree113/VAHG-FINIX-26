@@ -29,7 +29,7 @@ export const eventsData = {
         name: 'TECHNICAL QUIZ',
         max: 1,
         poster: 'Technical_quiz.png',
-        googleFormLink: 'https://docs.google.com/forms/d/e/1FAIpQLScRSZNcvp4P-q0BoBitudyoe_DMzR9z7hmeG0_UNQgAhjlviQ/viewform?usp=dialog',
+        googleFormLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdEIoY8YV9zh-NrAmQlX_1hpm01kj2SaVl8tkOr3Et3XwSBzQ/viewform?usp=header',
         description: 'The Technical Quiz is an engaging event designed to test participants’ knowledge in Computer Science and Engineering concepts. The competition consists of three progressive levels, starting with basic questions and advancing to intermediate and coding rounds.',
         details: 'Individual participation only. Topics: CS & Engineering concepts. Time Limit: 20s (General), 40s (Coding).',
         rules: [
