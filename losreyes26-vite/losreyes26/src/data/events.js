@@ -10,7 +10,7 @@ export const eventsData = {
         description: 'This presentation transforms ideas into visual stories, making complex concepts simple and engaging. Each slide blends creativity with clarity, using smart design and real-world examples. The focus is on impactful communication, audience interaction, and meaningful learning.',
         details: 'Presentation Duration: 5 – 7 minutes. Slides: 8 – 12 slides required. File Name Format: TeamName_TopicName_PPT.',
         rules: [
-          'Follow the 5 × 5 rule (maximum 5 points per slide, 5 words per line where possible).',
+          'For each team max 1-4 member can participate.',
           'Presentation must address a real-world problem and its solution related to the topic.',
           'All team members should participate equally in the presentation.',
           'Each team must answer at least one audience question.'
