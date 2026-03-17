@@ -74,7 +74,7 @@ export const eventsData = {
         min: 1,
         max: 2,
         poster: 'vibe-coding.png',
-        googleFormLink: 'https://docs.google.com/forms/d/e/1FAIpQLScF9ItKaym5Yjh9wAPFxjRRj8aXOEY_bpMsejOIEz_e42TE1g/viewform',
+        googleFormLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeqKiTCNLyH3yceAFyJ8EJN25kIt65hSKrfs4oOEqWGWryvUg/viewform?usp=publish-editor',
         description: 'Vibe Coding is a rapid development challenge where participants use AI tools and programming technologies to transform ideas into working applications. Based on an assigned topic, participants must design, build, and present a functional solution within a limited time.',
         details: '1 hour development challenge. Develop an application based on the assigned topic using any programming tools or frameworks. Submission: Final project must be uploaded to GitHub. Participants are encouraged to bring their own laptops.',
         rules: [
@@ -97,7 +97,7 @@ export const eventsData = {
         id: 'rhythm',
         name: 'RHYTHM BLAST',
         max: 1,
-        googleFormLink: 'https://docs.google.com/forms/d/e/1FAIpQLScF9ItKaym5Yjh9wAPFxjRRj8aXOEY_bpMsejOIEz_e42TE1g/viewform',
+        googleFormLink: 'https://docs.google.com/forms/d/e/1FAIpQLSd17DM4gq01YEZc995Uwlj_TqvsyRnV4g1mqu-guwisn4mlrg/viewform?usp=publish-editor',
         description: 'Unleash your inner performer in this energetic music and rhythm competition. Showcase your talent in this exciting non-technical event that celebrates creativity and artistry.',
         details: 'A solo performance event where participants showcase their musical or dance talent. All forms of performing arts welcome.',
         rules: [
@@ -118,7 +118,7 @@ export const eventsData = {
         id: 'lie',
         name: 'SPOT THE LIE',
         max: 1,
-        googleFormLink: 'https://docs.google.com/forms/d/e/1FAIpQLScF9ItKaym5Yjh9wAPFxjRRj8aXOEY_bpMsejOIEz_e42TE1g/viewform',
+        googleFormLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfgK5lnR_dxqY7-R4lttNw_EOJoG734ieOwYDmJNDm-yPHEOw/viewform?usp=publish-editor',
         description: 'A fun and engaging game of deception and deduction. Can you tell fact from fiction? Test your analytical skills and social intelligence in this thrilling event.',
         details: 'Participants are given 3 statements — 2 truths and 1 lie. Other participants must identify the lie through questioning. Best deceptor and detector both win.',
         rules: [
