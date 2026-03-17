@@ -84,7 +84,10 @@ export const eventsData = {
         ],
         coordinators: {
           staff: [{ name: 'PROF. S . SANDHYA', role: 'AP / CSE', phone: '7502802227' }],
-          student: [{ name: 'ASHOK', role: 'Student Coordinator' }]
+          student: [
+            { name: 'VINEETH', role: 'Student Coordinator', phone: '9995098453' },
+            { name: 'MASHALINI', role: 'Student Coordinator', phone: '9345619417' }
+          ]
         }
       }
     ],
