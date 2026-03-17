@@ -2,14 +2,14 @@ import React from 'react';
 import styles from './Footer.module.css';
 
 const coordinators = {
-  principal: [{ name: 'ASHOK', role: 'Principal' }],
-  hod: [{ name: 'ASHOK', role: 'Head of Department' }],
+  principal: [{ name: 'Dr. S. MANOHARAN', role: 'Principal' }],
+  hod: [{ name: 'Dr. S. SAKTHI VINAYAGAM', role: 'HOD / CSE', phone: '+91 98651 40132' }],
   staff: [
     { name: 'PROF. V ASHOK KUMAR', role: 'AP / CSE', phone: '7708776431' },
   ],
   student: [
-    { name: 'ASHOK', role: 'Student Coordinator' },
-    { name: 'ASHOK', role: 'Student Coordinator' },
+    { name: 'S. KARTHICK', role: 'Student Coordinator', phone: '6379001194' },
+    { name: 'K. SHARMI', role: 'Student Coordinator', phone: '8122676570' },
   ]
 };
 
