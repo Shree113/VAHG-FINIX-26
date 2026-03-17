@@ -60,8 +60,12 @@ const Footer = () => {
                 <span className={styles.regValue}>Rs 450/-</span>
               </div>
               <div className={styles.regItem}>
-                <span className={styles.regLabel}>Online participant (D1 & D2)</span>
+                <span className={styles.regLabel}>Online participant (D1 or D2)</span>
                 <span className={styles.regValue}>Rs 150/-</span>
+              </div>
+              <div className={styles.regItem}>
+                <span className={styles.regLabel}>combined Online participant (D1 & D2)</span>
+                <span className={styles.regValue}>Rs 300/-</span>
               </div>
               <div className={styles.regItem}>
                 <span className={styles.regLabel}>Mode</span>
