@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './Footer.module.css';
 
 const coordinators = {
-  principal: [{ name: 'Dr. S. MANOHARAN', role: 'Principal' }],
   hod: [{ name: 'Dr. S. SAKTHI VINAYAGAM', role: 'HOD / CSE', phone: '+91 98651 40132' }],
   staff: [
     { name: 'PROF. V ASHOK KUMAR', role: 'AP / CSE', phone: '7708776431' },
@@ -98,19 +97,8 @@ const Footer = () => {
 
         {/* Coordinators Section */}
         <div className={styles.coordinatorsSection}>
-          {/* Top row: Principal, HOD, Staff */}
+          {/* Top row: HOD, Staff */}
           <div className={styles.topCoordinators}>
-            <div className={styles.coordGroup}>
-              <h4 className={styles.coordTitle}>PRINCIPAL</h4>
-              <div className={styles.coordCards}>
-                {coordinators.principal.map((p, i) => (
-                  <PersonCard key={i} {...p} highlight />
-                ))}
-              </div>
-            </div>
-
-            <div className={styles.coordDivider}></div>
-
             <div className={styles.coordGroup}>
               <h4 className={styles.coordTitle}>HOD</h4>
               <div className={styles.coordCards}>
