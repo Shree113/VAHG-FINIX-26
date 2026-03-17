@@ -3,13 +3,15 @@ import { useParams, Link } from 'react-router-dom';
 import { eventsData } from '../data/events';
 import styles from './Register.module.css';
 
-import codeDebugPoster from '../assets/code_debug.png';
-import techQuizPoster from '../assets/tech-quiz-poster.jpg';
+import pptPoster from '../assets/ppt.jpeg';
+import technicalQuizPoster from '../assets/Technical_quiz.png';
+import codePoster from '../assets/Code Poster.png';
 import vibeCodingPoster from '../assets/vibe-coding.png';
 
 const posters = {
-  'code_debug.png': codeDebugPoster,
-  'tech-quiz-poster.jpg': techQuizPoster,
+  'ppt.jpeg': pptPoster,
+  'Technical_quiz.png': technicalQuizPoster,
+  'Code Poster.png': codePoster,
   'vibe-coding.png': vibeCodingPoster
 };
 
