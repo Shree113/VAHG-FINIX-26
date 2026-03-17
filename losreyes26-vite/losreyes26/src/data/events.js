@@ -16,7 +16,7 @@ export const eventsData = {
           'Each team must answer at least one audience question.'
         ],
         coordinators: {
-          staff: [{ name: 'PROF. V ASHOK KUMAR', role: 'AP / CSE', phone: '7708776431' }],
+          staff: [{ name: 'PROF. S . JASEENA', role: 'AP / CSE', phone: '7736752071' }],
           student: [
             { name: 'V. VARSHINI', role: 'Student Coordinator', phone: '9043133477' },
             { name: 'M. VARATHA', role: 'Student Coordinator', phone: '6369485613' }
@@ -38,7 +38,7 @@ export const eventsData = {
           'Participants must follow the instructions given by the quiz coordinator.'
         ],
         coordinators: {
-          staff: [{ name: 'PROF. V ASHOK KUMAR', role: 'AP / CSE', phone: '7708776431' }],
+          staff: [{ name: 'DR. T . RAJENDRAN', role: 'ASP / CSE', phone: '9952574861' }],
           student: [
             { name: 'R. SHANMUGAPRIYA', role: 'Student Coordinator', phone: '9940836202' },
             { name: 'V. DHINESH', role: 'Student Coordinator', phone: '7604828893' }
@@ -60,7 +60,7 @@ export const eventsData = {
           'Partial marks for partial solutions'
         ],
         coordinators: {
-          staff: [{ name: 'PROF. P . PRABU', role: 'AP / CSE', phone: '9500592923' }],
+          staff: [{ name: 'PROF. J . ARUN', role: 'AP / CSE', phone: '8156946090' }],
           student: [
             { name: 'FAHAD', role: 'Student Coordinator', phone: '7306841618' },
             { name: 'SAMEER', role: 'Student Coordinator', phone: '9500592923' }
@@ -83,7 +83,7 @@ export const eventsData = {
           'The judges’ decision will be final.'
         ],
         coordinators: {
-          staff: [{ name: 'PROF. V ASHOK KUMAR', role: 'AP / CSE', phone: '7708776431' }],
+          staff: [{ name: 'PROF. S . SANDHYA', role: 'AP / CSE', phone: '7502802227' }],
           student: [{ name: 'ASHOK', role: 'Student Coordinator' }]
         }
       }
@@ -103,7 +103,7 @@ export const eventsData = {
           'Performance must be original or credited'
         ],
         coordinators: {
-          staff: [{ name: 'PROF. V ASHOK KUMAR', role: 'AP / CSE', phone: '7708776431' }],
+          staff: [{ name: 'PROF. K . ELANGOVAN', role: 'AP / CSE', phone: '7010848123' }],
           student: [
             { name: 'SUSITH . J', role: 'Student Coordinator', phone: '9360034180' },
             { name: 'M. SANDHIYA', role: 'Student Coordinator', phone: '8122643264' }
@@ -124,7 +124,7 @@ export const eventsData = {
           'Points for both deception and detection'
         ],
         coordinators: {
-          staff: [{ name: 'PROF. V ASHOK KUMAR', role: 'AP / CSE', phone: '7708776431' }],
+          staff: [{ name: 'PROF. S . SATHYA', role: 'AP / CSE', phone: '6380039615' }],
           student: [
             { name: 'G. LOKESH', role: 'Student Coordinator', phone: '8438664070' },
             { name: 'V. YUVA', role: 'Student Coordinator', phone: '9342953317' }
