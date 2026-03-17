@@ -141,6 +141,7 @@ export const eventsData = {
     webinar: {
       id: 'webinar',
       name: 'CAREER AI NEXUS 2026',
+      googleFormLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdsn1ZcYErMHSKe0AtvF2EY5fo8Yh5s1VgackFFtpDgkWcvEA/viewform?usp=publish-editor',
       description: 'An exclusive webinar exploring the intersection of artificial intelligence and career development. Industry experts share insights on emerging AI trends, career pathways in tech, and how to leverage AI tools for professional growth. A must-attend for students aspiring to build careers in cutting-edge technology domains.',
       coordinators: {
         staff: [{ name: 'PROF. V ASHOK KUMAR', role: 'AP / CSE', phone: '7708776431' }],
