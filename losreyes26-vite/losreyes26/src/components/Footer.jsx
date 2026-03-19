@@ -28,7 +28,7 @@ const PersonCard = ({ name, role, phone, highlight }) => (
   </div>
 );
 
-const Footer = () => {
+const Footer = ({ onNavigate }) => {
   return (
     <footer className={styles.footer} id="footer">
       <div className={styles.footerGlow}></div>
@@ -98,6 +98,9 @@ const Footer = () => {
                     <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
                   </svg>
                 </a>
+                <button onClick={() => onNavigate('events')} className={styles.altButton}>
+                  <span>VIEW EVENTS</span>
+                </button>
               </div>
             </div>
           </div>

@@ -14,7 +14,7 @@ const HomePage = ({ activeSection, onNavigate }) => {
       <main>
         <Hero />
         <Events />
-        <Footer />
+        <Footer onNavigate={onNavigate} />
       </main>
     </>
   );
