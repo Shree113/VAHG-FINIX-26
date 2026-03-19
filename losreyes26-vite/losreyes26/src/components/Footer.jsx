@@ -99,7 +99,7 @@ const Footer = ({ onNavigate }) => {
                   </svg>
                 </a>
                 <button onClick={() => onNavigate('events')} className={styles.altButton}>
-                  <span>VIEW EVENTS</span>
+                  <span>EVENTS REGISTERATION</span>
                 </button>
               </div>
             </div>
